@@ -1,1 +1,84 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    
+   
+
+}
+header nav{
+    width:100%;
+    background-color: CadetBlue;
+    color: azure;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    }
+h1{
+    text-size: 30%;
+}
+   
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    background-color: CadetBlue;
+    color: azure;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: blue;
+}
+
+button{
+    width:15%;
+    height: auto;
+}
+
+.main{
+    height: 50vh;
+    margin: 5%;
+    color:azure;
+    background-color: darkcyan;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+} 
+.bottom{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin:5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+footer{
+   background-color: cadetblue;
+   display:flex;
+   justify-content: center;
+}
+.images h2{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
